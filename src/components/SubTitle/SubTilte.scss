@@ -1,0 +1,15 @@
+@import "../../App.scss";
+
+.main-content{
+    // 
+    .content{
+        background-color: $clr-white;
+        color: $clr-gray;
+        border-left: .5rem solid $clr-light-orange;
+        box-shadow:0 0 6px rgba(9, 9, 9, 0.1);
+    }
+    .title{
+        text-transform: uppercase;
+        word-spacing: 5px;
+    }
+}

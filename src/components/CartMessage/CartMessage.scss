@@ -1,0 +1,19 @@
+@import "./../../App.scss";
+
+.cart-message{
+    position: fixed;
+    width: 35%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) !important;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 2rem 3rem;
+    color: $clr-white;
+    .cart-message-icon{
+        margin-bottom: 2rem; 
+        img{
+            width: 5rem;
+            margin: auto;
+        }   
+    }
+}

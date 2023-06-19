@@ -1,0 +1,60 @@
+@import './../../App.scss';
+
+.sidebar{
+    color: $clr-gray;
+    h4{
+        padding-bottom: 1rem;
+    }
+    .close{
+        color: $clr-gray; 
+        &:hover{
+            color: $clr-orange;
+        }
+    }
+    
+    .content{
+        color: $clr-gray;
+        border-right: 3px solid $clr-light-orange;
+        p:not(:last-child){
+           border-bottom: 1px solid $clr-light-gray;  
+        }
+        
+    }
+    .d-sidebar{
+        width: 20rem;
+        height: auto;
+        background-color: $clr-white;
+        top: 0;
+        position: absolute;
+        z-index: 100;
+        padding: 1.5rem;
+        
+    }
+    .none{
+        display: none;
+    }
+    .hide-btn{
+        position: absolute;
+        right: 1rem;
+    }
+    .cat-list{
+        overflow-y: scroll;
+        height: calc(100vh - 60px);
+        li{
+            padding: 0.8rem 0;
+            margin-right: 1.2rem;
+            border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
+            .cat-list-link{
+                font-size: 14px;
+                font-family: $font-family-manrope;
+                letter-spacing: 0.3px;
+                transition: $transition-ease;
+
+                &:hover{
+                    color: $clr-orange;
+                    margin-left: 10px;
+                }
+            }
+ }
+}
+}

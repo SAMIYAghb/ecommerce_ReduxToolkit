@@ -1,0 +1,24 @@
+@import "../../App.scss";
+
+
+main{
+    background-color: $clr-light;
+    .main-content{
+        min-height: 100vh;
+        .categories{
+            // display: flex;
+            // align-items: center;
+            // justify-content: space-between;
+            // flex-direction: column;
+            // flex-wrap: wrap;
+ 
+            .categories-item{
+                // display: grid;
+                // grid-template-columns: repeat(3, 1fr);
+                // gap: 20px;
+                // flex:1;
+                // min-width: 24%;
+            }
+        }
+    }
+}

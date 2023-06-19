@@ -1,0 +1,25 @@
+@import "./../../App.scss";
+.cart-page{
+    background:$clr-light-gray;
+
+    .container{
+
+        .body{
+            .content-body {
+                // grid-template-columns: 1fr 4fr 2fr 2fr 2fr 2fr;
+                // min-height: 40px;
+                // border-bottom: 1px solid $clr-whitesmoke;
+                // display: grid;
+                // align-items: center!important;
+            }
+        }
+        
+            button.actions, .check, .clear{
+                padding: .3rem;
+                border-radius: .5rem;
+                background-color: $clr-light-orange;
+            }
+        
+    }
+}
+

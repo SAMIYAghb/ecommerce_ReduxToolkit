@@ -1,0 +1,67 @@
+@import './../../App.scss';
+
+.prod-content{
+    background-color: $clr-light-gray;
+    padding-bottom: 1rem;
+    @media screen and (max-width: 768px){
+        flex-direction: column;
+    }
+    .image-prod{
+        height: 380px;
+        overflow: hidden;
+        
+    }
+    .mini-images{
+        overflow-x: scroll;
+        
+        &::-webkit-scrollbar{
+            height: 5px;
+        }
+      
+        .mini-img-box{
+            height: 120px;
+            margin-top: 1rem;
+            margin-left: .5rem;
+        }
+    }
+    .prod-detail{
+        padding: 2rem;
+        .prod-title{
+           margin-bottom: 1rem;
+        }
+        .price{
+            margin: 1rem 0;
+            color: $clr-orange;
+        }
+        .old-price{
+            text-decoration: line-through;
+        }
+        .discount{
+            margin-left: 1rem;
+            border-radius: .3rem;
+        }
+        .btns{
+            margin-top: 2rem;
+            .btn1{
+                background-color: rgba(239, 104, 55, 0.199);
+                border-radius: 3px;
+                color: $clr-orange;
+                padding: 0 10px;
+            }
+            .btn2{
+                background-color: $clr-light-orange;
+                border-radius: 3px;
+                color: #fff;
+                margin-left: 1rem;
+                padding: 0 10px;
+            }
+            
+        }
+    .qty-change{
+        border: 1px solid #fff;
+        border-radius: 5px;
+        padding: 0 5px;
+    }
+    }
+    
+}
